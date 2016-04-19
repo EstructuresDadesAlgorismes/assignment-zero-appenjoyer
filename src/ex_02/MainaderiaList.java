@@ -66,8 +66,7 @@ public class MainaderiaList implements Mainaderia {
     	int cont = 0;
     	for(Criatura criatura: (List<Criatura>)contingut){
     		if(criatura.getSexe() == sexe){
-    			cont--;
-    		}		
+    			//PEW    		}		
     	}
     	
     	return cont;
